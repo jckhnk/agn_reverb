@@ -11,6 +11,6 @@ Nuclei (AGN) structure in AGN reverberation mapping studies.
 The specific procedure is described in detail by Brad Peterson 
 [here](http://ned.ipac.caltech.edu/level5/March11/Peterson/peterson2.pdf).
 
-![Figure 1](https://github.com/jckhnk/agn_reverb/blob/master/spz_kep_ccf.pdf "Figure 1")
+![Figure 1](https://github.com/jckhnk/agn_reverb/blob/master/spz_kep_ccf.pdf?raw=true)
 
-![Figure 2](https://github.com/jckhnk/agn_reverb/blob/master/tau_centroid_epoch1_sigma_scale1_n1000.pdf "Figure 2")
+![Figure 2](https://github.com/jckhnk/agn_reverb/blob/master/tau_centroid_epoch1_sigma_scale1_n1000.pdf?raw=true)
