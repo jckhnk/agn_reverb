@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-
+from scipy.stats import norm
 
 def ccf_single(x, y, k):
 
@@ -46,7 +46,7 @@ lag_days = np.array(lags) * np.median(np.diff(time))
 plt.bar(lag_days, ccf_vals, width=0.5, color='gray', align='center', linewidth=0)
 xlim = plt.gca().get_xlim()
 ci = 0.95
-sig_lev = norm.ppf((1+ci)/2)/np.sqrt(len(x))
+sig_lev = norm.ppf((1+ci)/2)/np.sqrt(len(time))
 plt.plot(xlim, [sig_lev]*2, 'b--', label='95% significance level')
 plt.plot(xlim, [-sig_lev]*2, 'b--')
 plt.plot(xlim, [0]*2, 'k-')
@@ -55,5 +55,5 @@ plt.ylabel('CCF')
 plt.xlim(min(lag_days)-1, max(lag_days)+1)
 plt.ylim(round(min(ccf_vals)*10)/10-0.1, round(max(ccf_vals)*10)/10+0.1)
 plt.legend()
-plt.savefig('spz_kep_ccf.pdf')
+plt.savefig('spz_kep_ccf.png')
 plt.close()
