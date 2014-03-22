@@ -11,6 +11,9 @@ Nuclei (AGN) structure in AGN reverberation mapping studies.
 The specific procedure is described in detail by Brad Peterson 
 [here](http://ned.ipac.caltech.edu/level5/March11/Peterson/peterson2.pdf).
 
-![Figure 1](https://github.com/jckhnk/agn_reverb/blob/master/spz_kep_ccf.png?raw=true)
+Below are plots of the CCF and FR/RSS $\tau_{cent}$ parameter estimate
+using Spitzer and Kepler observations of the AGN zw229.
 
-![Figure 2](https://github.com/jckhnk/agn_reverb/blob/master/tau_centroid_epoch1_sigma_scale1_n1000.png?raw=true)
+![](https://github.com/jckhnk/agn_reverb/blob/master/spz_kep_ccf.png?raw=true)
+
+![](https://github.com/jckhnk/agn_reverb/blob/master/tau_centroid_epoch1_sigma_scale1_n1000.png?raw=true)
