@@ -13,4 +13,4 @@ The specific procedure is described in detail by Brad Peterson
 
 ![Figure 1](https://github.com/jckhnk/agn_reverb/blob/master/spz_kep_ccf.png?raw=true)
 
-![Figure 2](https://github.com/jckhnk/agn_reverb/blob/master/tau_centroid_epoch1_sigma_scale1_n1000.pdf?raw=true)
+![Figure 2](https://github.com/jckhnk/agn_reverb/blob/master/tau_centroid_epoch1_sigma_scale1_n1000.png?raw=true)
